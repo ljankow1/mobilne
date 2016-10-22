@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">Calculator</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!--Main activity -->
+    <string name="calc1">Kalkulator prosty</string>
+    <string name="calc2">Kalkulator zaawansowany</string>
+    <string name="aboutAuthor">O autorze</string>
+    <string name="cancel">Zakończ</string>
+
+    <!--Calc1Activity -->
+    <string name="btn0">0</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <string name="btn6">6</string>
+    <string name="btn7">7</string>
+    <string name="btn8">8</string>
+    <string name="btn9">9</string>
+
+    <string name="btnPlus">+</string>
+    <string name="btnDot">.</string>
+    <string name="btnMinus">-</string>
+    <string name="btnDivided">/</string>
+    <string name="btnTimes">x</string>
+    <string name="btnEquals">=</string>
+    <string name="btnPow">^</string>
+    <string name="btnSqr">Sqr</string>
+    <string name="btnPercent">%</string>
+
+    <string name="btnSin">sin</string>
+    <string name="btnCos">cos</string>
+    <string name="btnTg">tg</string>
+    <string name="btnCtg">ctg</string>
+
+    <string name="btnLn">ln</string>
+    <string name="btnStrong">!</string>
+    <string name="btnExp">e</string>
+    <string name="btnPi">Pi</string>
+
+    <string name="btnClear">kasuj</string>
+
+    <string name="infoOAutorze">Informacje o autorze kalkulatora</string>
+
+    <string name="textView">Wprowadź obliczenia</string>
+
+
+</resources>

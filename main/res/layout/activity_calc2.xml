@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical"
+    android:layout_centerVertical="true">
+
+    <!--text view-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="@string/textView" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="40dp" android:textSize="10dp" android:textAlignment="center" />
+    </LinearLayout>
+    <!--buttons 7,8,9,times,clear-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button android:text="@string/btn7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn7Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btn8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn8Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btn9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn9Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btnTimes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnTimesExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnClear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnClearExt" android:layout_weight="1"/>
+    </LinearLayout>
+    <!--buttons 4,5,6,divided,pow-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button android:text="@string/btn4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn4Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btn5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn5Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btn6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn6Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btnDivided" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnDividedExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnPow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnPowExt" android:layout_weight="1"/>
+    </LinearLayout>
+    <!--buttons 1,2,3,plus,sqr-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button android:text="@string/btn1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn1Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btn2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn2Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btn3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn3Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btnPlus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnPlusExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnSqr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSqrExt" android:layout_weight="1"/>
+    </LinearLayout>
+    <!--buttons 0,dot,equal,minus,percent-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button android:text="@string/btn0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn0Ext" android:layout_weight="1"/>
+        <Button android:text="@string/btnDot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnDotExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnEquals" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnEqualExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnMinus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnMinusExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnPercent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnPercentExt" android:layout_weight="1"/>
+    </LinearLayout>
+    <!--buttons sin,cos,tg,ctg -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button android:text="@string/btnSin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSinExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnCos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnCosExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnTg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnTgExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnCtg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnCtgExt" android:layout_weight="1"/>
+    </LinearLayout>
+    <!--buttons exp,ln,strong,pi -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button android:text="@string/btnExp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnExpExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnLn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnLnExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnStrong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnStrongExt" android:layout_weight="1"/>
+        <Button android:text="@string/btnPi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnPiExt" android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
